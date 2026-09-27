@@ -1,1 +1,25 @@
-
+{
+  "name": "antioch-moderasyon-botu",
+  "version": "1.0.0",
+  "description": "Discord Moderasyon ve Yönetim Botu",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "keywords": [
+    "discord",
+    "bot",
+    "moderation",
+    "ticket"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@discordjs/rest": "^2.4.0",
+    "discord-api-types": "^0.37.100",
+    "discord.js": "^14.16.3"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
